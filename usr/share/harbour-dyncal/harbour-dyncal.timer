@@ -1,0 +1,10 @@
+[Unit]
+Description=Run the script and change calendar icon.
+
+[Timer]
+OnBootSec=10
+OnCalendar=*-*-* 0:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
