@@ -1,4 +1,5 @@
 [Unit]
+<<<<<<< HEAD
 Description=Change calendar icon.
 
 [Timer]
@@ -8,3 +9,14 @@ OnCalendar=*-*-* *:0/1:00
 
 [Install]
 WantedBy=timers.target
+=======
+Description=Run the script and change calendar icon.
+
+[Timer]
+OnBootSec=10
+OnCalendar=*-*-* 0:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+>>>>>>> c6234cee16cd4c6023e5d96a95d9f3e6b04848a7

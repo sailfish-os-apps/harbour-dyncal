@@ -1,5 +1,9 @@
 [Unit]
+<<<<<<< HEAD
 Description=Change calendar icon.
+=======
+Description=Run the script and change calendar icon.
+>>>>>>> c6234cee16cd4c6023e5d96a95d9f3e6b04848a7
 
 [Service]
 Type=oneshot
@@ -7,4 +11,8 @@ RemainAfterExit=no
 ExecStart=/usr/share/harbour-dyncal/harbour-dyncal.sh
 
 [Install]
+<<<<<<< HEAD
 WantedBy=multi-user.target
+=======
+WantedBy=multi-user.target
+>>>>>>> c6234cee16cd4c6023e5d96a95d9f3e6b04848a7
