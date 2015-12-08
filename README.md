@@ -8,6 +8,6 @@ For the latest release, go to https://openrepos.net/content/fravaccaro/dynamic-c
 
 ## Extensions' support
 
-You can simply customize the icons (to change icon pack or add your holidays) by following the following steps:
+You can simply customize the icons (to change icon pack or add your own holidays) by following the following steps:
 
 [TODO]
