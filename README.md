@@ -8,6 +8,4 @@ For the latest release, go to https://openrepos.net/content/fravaccaro/dynamic-c
 
 ## Extensions' support
 
-You can simply customize the icons (to change icon pack or add your own holidays) by following the following steps:
-
-[TODO]
+You can simply customize the icons (to change icon pack or add your own holidays) by following [https://github.com/fravaccaro/harbour-dyncal/wiki/Extensions](these steps).
