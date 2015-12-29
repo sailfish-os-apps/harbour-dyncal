@@ -1,6 +1,6 @@
 Name:          harbour-dyncal
-Version:       0.3.0
-Release:       2
+Version:       0.3.1
+Release:       1
 Summary:       DynCal
 Group:         System/Tools
 Vendor:        fravaccaro
@@ -49,6 +49,9 @@ fi
 fi
 
 %changelog
+* Tue Dec 29 2015 0.3.1
+- Reduced package size.
+
 * Tue Dec 8 2015 0.3.0
 - Extensions support added.
 

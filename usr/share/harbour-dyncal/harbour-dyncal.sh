@@ -17,11 +17,21 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
+# Get date and define variables
 day="$(date +'%d')"
 month="$(date +'%m')"
+main=/usr/share/harbour-dyncal
 
+# Find if there's an holiday icon for the current day
+if [ -f $main/icons/$month$day.png ]; then
+icon=$month$day
+else
+icon=$day
+fi
+
+# Apply icon
 rm -rf /usr/share/themes/jolla-ambient/meegotouch/z1.0/icons/icon-launcher-calendar.png
-cp /usr/share/harbour-dyncal/icons/$month$day.png /usr/share/themes/jolla-ambient/meegotouch/z1.0/icons/icon-launcher-calendar.png
+cp $main/icons/$icon.png /usr/share/themes/jolla-ambient/meegotouch/z1.0/icons/icon-launcher-calendar.png
 rm -rf /usr/share/applications/jolla-calendar.desktop
 /usr/bin/desktop-file-install /usr/share/applications/jolla-calendar.desktop
 echo '[Desktop Entry]
@@ -35,5 +45,5 @@ X-Maemo-Service=com.jolla.calendar.ui
 X-Maemo-Object-Path=/com/jolla/calendar/ui
 X-Maemo-Method=com.jolla.calendar.ui.activateWindow
 X-Desktop-File-Install-Version=0.20' > /usr/share/applications/jolla-calendar.desktop
-/usr/bin/desktop-file-install /usr/share/applications/jolla-calendar.desktop --set-icon=/usr/share/harbour-dyncal/icons/$month$day.png
+/usr/bin/desktop-file-install /usr/share/applications/jolla-calendar.desktop --set-icon=$main/icons/$icon.png
 exit 0
