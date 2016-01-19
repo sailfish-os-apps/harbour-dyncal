@@ -9,3 +9,8 @@ For the latest release, go to https://openrepos.net/content/fravaccaro/dyncal-dy
 ## Extensions' support
 
 You can simply customize the icons (to change icon pack or add your own holidays) by following [these steps](https://github.com/fravaccaro/harbour-dyncal/wiki/Extensions).
+
+## Themes support
+
+DynCal supports theming via [Theme pack support for Sailfish OS](https://github.com/fravaccaro/harbour-themepacksupport/wiki).
+

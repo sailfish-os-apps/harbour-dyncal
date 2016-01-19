@@ -17,8 +17,8 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-rm -rf /usr/share/themes/jolla-ambient/meegotouch/z1.0/icons/icon-launcher-calendar.png
-cp /usr/share/harbour-dyncal/icon-launcher-calendar.png /usr/share/themes/jolla-ambient/meegotouch/z1.0/icons/icon-launcher-calendar.png
+rm -rf /usr/share/themes/sailfish-default/meegotouch/z1.0/icons/icon-launcher-calendar.png
+cp /usr/share/harbour-dyncal/icon-launcher-calendar.png /usr/share/themes/sailfish-default/meegotouch/z1.0/icons/icon-launcher-calendar.png
 rm -rf /usr/share/applications/jolla-calendar.desktop
 /usr/bin/desktop-file-install /usr/share/applications/jolla-calendar.desktop
 echo '[Desktop Entry]

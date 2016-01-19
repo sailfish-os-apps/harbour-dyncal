@@ -1,5 +1,5 @@
 Name:          harbour-dyncal
-Version:       0.3.1
+Version:       0.4.0
 Release:       1
 Summary:       DynCal
 Group:         System/Tools
@@ -49,6 +49,9 @@ fi
 fi
 
 %changelog
+* Tue Jan 19 2016 0.4.0
+- Sailfish OS 2.0.7 support.
+
 * Tue Dec 29 2015 0.3.1
 - Reduced package size.
 
