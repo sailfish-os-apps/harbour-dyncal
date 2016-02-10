@@ -1,10 +1,11 @@
 Name:          harbour-dyncal
 Version:       0.4.0
-Release:       1
+Release:       2
 Summary:       DynCal
 Group:         System/Tools
 Vendor:        fravaccaro
 Distribution:  SailfishOS
+Requires:      sailfish-version >= 2.0.1
 Packager: fravaccaro <fravaccaro@jollacommunity.it>
 URL:           www.jollacommunity.it
 License:       GPL
