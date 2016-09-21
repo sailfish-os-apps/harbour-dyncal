@@ -1,6 +1,6 @@
 Name:          harbour-dyncal
-Version:       0.4.0
-Release:       2
+Version:       0.4.1
+Release:       1
 Summary:       DynCal
 Group:         System/Tools
 Vendor:        fravaccaro
@@ -50,6 +50,10 @@ fi
 fi
 
 %changelog
+* Wed Sep 21 2016 0.4.1
+- High-res icons.
+- Some icons redesigned.
+
 * Tue Jan 19 2016 0.4.0
 - Sailfish OS 2.0.7 support.
 
