@@ -32,7 +32,7 @@ fi
 # Apply icon
 rm -rf /usr/share/themes/sailfish-default/meegotouch/z1.0/icons/icon-launcher-calendar.png
 cp $main/icons/$icon.png /usr/share/themes/sailfish-default/meegotouch/z1.0/icons/icon-launcher-calendar.png
-rm -rf /usr/share/applications/jolla-calendar.desktop
+rm -rf /usr/share/applications/jolla-calendar.desktop && touch /usr/share/applications/jolla-calendar.desktop
 /usr/bin/desktop-file-install /usr/share/applications/jolla-calendar.desktop
 echo '[Desktop Entry]
 Type=Application

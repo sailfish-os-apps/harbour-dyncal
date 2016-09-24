@@ -1,5 +1,5 @@
 Name:          harbour-dyncal
-Version:       0.4.1
+Version:       0.4.2
 Release:       1
 Summary:       DynCal
 Group:         System/Tools
@@ -50,6 +50,9 @@ fi
 fi
 
 %changelog
+* Sat Sep 24 2016 0.4.2
+- Icon jumping to the bottom of the app tray may be fixed.
+
 * Wed Sep 21 2016 0.4.1
 - High-res icons.
 - Some icons redesigned.
