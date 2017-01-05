@@ -1,5 +1,5 @@
 Name:          harbour-dyncal
-Version:       0.4.3
+Version:       0.4.4
 Release:       1
 Summary:       DynCal
 Group:         System/Tools
@@ -50,6 +50,9 @@ fi
 fi
 
 %changelog
+* Thu Jan 5 2017 0.4.4
+- Bug fix.
+
 * Thu Oct 6 2016 0.4.3
 - Black icon fixed.
 
