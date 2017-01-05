@@ -1,6 +1,6 @@
 Name:          harbour-dyncal
 Version:       0.4.4
-Release:       1
+Release:       2
 Summary:       DynCal
 Group:         System/Tools
 Vendor:        fravaccaro
