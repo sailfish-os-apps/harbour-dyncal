@@ -1,6 +1,6 @@
 Name:          harbour-dyncal
-Version:       0.4.4
-Release:       2
+Version:       0.4.5
+Release:       3
 Summary:       DynCal
 Group:         System/Tools
 Vendor:        fravaccaro
@@ -50,6 +50,9 @@ fi
 fi
 
 %changelog
+* Mon Jul 3 2017 0.4.5
+- Bug fix.
+
 * Thu Jan 5 2017 0.4.4
 - Bug fix.
 

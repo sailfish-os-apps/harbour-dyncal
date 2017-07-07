@@ -1,10 +1,11 @@
 [Unit]
-Description=Change calendar icon.
+Description=Timer for DynCal.
 
 [Timer]
 OnBootSec=0
-OnUnitInactiveSec=60
-OnCalendar=*-*-* *:0/1:00
+OnCalendar=00:00
+OnUnitActiveSec=12h
+Persistent=True
 
 [Install]
 WantedBy=timers.target
