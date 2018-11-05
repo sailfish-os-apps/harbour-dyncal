@@ -1,5 +1,5 @@
 Name:          harbour-dyncal
-Version:       0.4.6
+Version:       0.4.7
 Release:       1
 Summary:       DynCal
 Group:         System/Tools
