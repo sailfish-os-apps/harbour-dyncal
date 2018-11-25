@@ -12,5 +12,5 @@ You can simply customize the icons (to change icon pack or add your own holidays
 
 ## Themes support
 
-DynCal supports theming via [Theme pack support for Sailfish OS](https://github.com/fravaccaro/harbour-themepacksupport/wiki).
+DynCal supports theming via [Theme pack support for Sailfish OS](https://fravaccaro.github.io/themepacksupport-sailfishos/docs/getstarted.html).
 
